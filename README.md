@@ -1,4 +1,12 @@
-### Hi there 👋
+<h3 align="center"> 數心 | Matheart </h3>
+
+<p align="center">
+  <a href="https://space.bilibili.com/346660989">Bilibili</a> •
+  <a href="https://www.youtube.com/channel/UCqhSUZIUzmwEvtZ9JQklwfQ">YouTube</a> •
+</p>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ArtanisWongWWW&hide=html,css,javascript&count_private=true&layout=compact)](https://github.com/TonyCrane)
+[![Stats](https://github-readme-stats.vercel.app/api?username=ArtanisWongWWW&show_icons=true&count_private=true&line_height=20)](https://github.com/ArtanisWongWWW)
 
 <!--
 **ArtanisWongWWW/ArtanisWongWWW** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
