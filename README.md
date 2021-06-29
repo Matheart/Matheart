@@ -18,7 +18,7 @@
 
 ### How to reach me:
 - Email： waautomationwong@gmail.com
-- Discord: 數心Matheart#7667
+- Discord: Matheart
 
 <!--
 **ArtanisWongWWW/ArtanisWongWWW** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
