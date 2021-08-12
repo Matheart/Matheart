@@ -11,7 +11,7 @@
 
 
 ### About me
-- 🏫: A secondary school graduate
+- 🏫: HKUST Engineering Freshman
 - 💙: Love Mathematics and Computer Science
 - 📺: A Bilibili Content Creator (UP主)
 
