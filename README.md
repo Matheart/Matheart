@@ -1,6 +1,6 @@
 <h2 align="center"> 數心 | Matheart</h2>
 
-<h4 align="center">Math is the music of reasoning.</h4>
+<h4 align="center"> 🏛️: HKUST </h4>
 
 <h5 align="center">
   <a href="https://matheart.github.io">BLOG</a> ∙
