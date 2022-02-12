@@ -1,5 +1,6 @@
 name: Default metrics
 uses: lowlighter/metrics@latest
+on: push
 with:
   filename: metrics.base.svg
   token: ${{ secrets.METRICS_TOKEN }}
