@@ -32,8 +32,9 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_aliases: 'Jupyter Notebook:Ipynb'
           commits_authoring: Matheart, hnwongaf@connect.ust.hk, waautomationwong@gmail.com
+          plugin_stargazers: yes
           config_padding: 0, 8 + 11%
-          config_order: base.header, base.activity+community, languages
+          config_order: base.header, base.activity+community, languages, stargazers
 
       - name: right
         uses: lowlighter/metrics@latest
