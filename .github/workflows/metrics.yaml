@@ -32,9 +32,11 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_aliases: 'Jupyter Notebook:Ipynb'
           commits_authoring: Matheart, hnwongaf@connect.ust.hk, waautomationwong@gmail.com
-          plugin_stargazers: yes
+          plugin_code: yes
+          plugin_code_languages: c++, python
+          plugin_code_load: 400
           config_padding: 0, 8 + 11%
-          config_order: base.header, base.activity+community, languages, stargazers
+          config_order: base.header, base.activity+community, languages, code
 
       - name: right
         uses: lowlighter/metrics@latest
@@ -50,8 +52,6 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_threshold: B
           plugin_achievements_limit: 6
-          plugin_rss: no
-          plugin_rss_source: https://blog.gztime.cc/atom.xml
-          plugin_rss_limit: 4
+          plugin_stargazers: yes
           config_padding: 0, 8 + 11%
-          config_order: achievements, rss
+          config_order: achievements, stargazers
