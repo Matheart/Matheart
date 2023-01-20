@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="630" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="577" class="">
     <defs>
         <style/>
     </defs>
@@ -36,8 +36,8 @@
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -240,7 +240,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">31d68eed</span>
-                            <span class="code">domainbed/hparams_registry.py</span>
+                            <span class="code">domainbed/algorithms.py</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
@@ -248,7 +248,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -139,7 +139,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">elif algorithm == "FineTuning" or algorithm == "LPFT":<br /></span><span class="token prefix unchanged">·</span><span class="token line">    _hparam('early_stopping_patience', 5, lambda r: r.choice([5, 10, 15, 20, 25]))<br /></span><span class="token prefix unchanged">·</span><span class="token line">    _hparam('T_max', 20, lambda r: r.choice([10, 20]))<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    _hparam('lr_d', 0.00005, lambda r: r.choice([0.0001, 0.0003, 0.001, 0.01, 0.03, 0.1]))<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    #_hparam('lr_d', 0.00005, lambda r: r.choice([0.0001, 0.0003, 0.001, 0.01, 0.03, 0.1]))<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line"># Dataset-and-algorithm-specific hparam definitions. Each block of code</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -2054,7 +2054,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">self.optimizer = torch.optim.Adam(<br /></span><span class="token prefix unchanged">·</span><span class="token line">    self.model.parameters(),<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    lr = self.hparams["lr_d"],<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    lr = self.hparams["lr"],<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    weight_decay = self.hparams["weight_decay"]<br /></span><span class="token prefix unchanged">·</span><span class="token line">)    <br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
