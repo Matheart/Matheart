@@ -3,9 +3,8 @@
 <h4 align="center"> 🏛️: HKUST </h4>
 
 <h5 align="center">
-  <a href="https://matheart.github.io">BLOG</a> ∙
-  <a href="https://space.bilibili.com/171431343">BILIBILI</a> ∙ 
-  <a href="https://github.com/manim-kindergarten">ORGANISATION</a> 
+  <a href="https://matheart.github.io">Main Page</a> ∙
+  <a href="https://space.bilibili.com/171431343">Bilibili Page</a> 
 </h5>
 
 <!-- ![Metrics](https://github.com/Matheart/Matheart/blob/master/github-metrics.svg) -->
